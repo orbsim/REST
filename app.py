@@ -50,6 +50,7 @@ def modify_languege(index):
     return {}, 400
         
 
+
 @app.route('/<int:index>', methods=['DELETE'])
 def delete_languege(index):
     try:
